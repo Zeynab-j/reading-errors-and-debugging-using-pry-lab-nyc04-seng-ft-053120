@@ -9,16 +9,16 @@ end
 def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
-def crew
+def crew 
   ["Ali" "sam"," Ahmed", "Adam"]
 end
 def greet_crew(crew)
   puts ["Hello Ali." "Hello sam.","Hello Ahmed.", "Hello Adam"]
 
 end
-def engage(state_log, star_date)
+def def engage
   date = generate_star_date
-  puts state_log(date)
-puts greet_crew(grew)
-  puts 'state_log', 'greet_crew'
+  state_log(date)
+  greet_crew(crew)
 end
+
