@@ -13,11 +13,11 @@ def crew
   ["Ali" "sam"," Ahmed", "Adam"]
 end
 def greet_crew(crew)
-  puts ["Hello Ali." "Hello sam.","Hello Ahmed.", "Hello Adam"]
+["Hello Ali." "Hello sam.","Hello Ahmed.", "Hello Adam"]
 
 end
 def engage
   date = generate_star_date
-  state_log(date)
-  greet_crew(crew)
+puts  state_log(date)
+puts greet_crew(crew)
 end
