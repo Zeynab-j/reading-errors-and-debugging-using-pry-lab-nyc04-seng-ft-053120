@@ -16,7 +16,7 @@ def greet_crew(crew)
   puts ["Hello Ali." "Hello sam.","Hello Ahmed.", "Hello Adam"]
 
 end
-def def engage
+def engage
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
