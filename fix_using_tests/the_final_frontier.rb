@@ -13,5 +13,5 @@ end
 def greet_crew (state_log, crew)
   puts state_log(state_log, star_date)
   date = generate_star_date
-  puts engage("state_log" "crew")
+  puts greet_crew("state_log" "crew")
 end
