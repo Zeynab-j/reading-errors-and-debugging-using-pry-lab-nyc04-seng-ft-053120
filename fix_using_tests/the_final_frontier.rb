@@ -21,4 +21,4 @@ def engage (state_log, star_date)
   state_log(date)
   greet_crew(grew)
   puts "state_log" , "star_date"
-end 
+end
